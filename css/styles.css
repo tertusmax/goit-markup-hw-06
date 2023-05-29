@@ -715,7 +715,7 @@ ul {
 .contacts-form-container-checkbox {
   margin-bottom: 24px;
 }
-.contact-form-field-wrapper-text {
+.contact-form-field-wrapper-span {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -724,4 +724,10 @@ ul {
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+.contacts-form-checkbox:checked + .contact-form-field-wrapper-span {
+  background-color: var(--hover-text-color);
+  border: none;
+  fill: #ffffff;
+  border-color: var(--hover-text-color);
 }
