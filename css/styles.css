@@ -681,10 +681,16 @@ ul {
   height: 120px;
   resize: none;
   padding: 8px 16px 8px 16px;
-  line-height: 1.1;
+  line-height: 1.17;
   background: #fcfcfc;
   border-radius: 4px;
   transition: border-color var(--transition-duration-and-fanc);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  border: 1px solid rgba(46, 47, 66, 0.2);
+  background-color: transparent;
+  outline: transparent;
 }
 .contacts-form-textarea:focus {
   outline: none;
