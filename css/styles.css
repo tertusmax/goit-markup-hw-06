@@ -627,6 +627,7 @@ ul {
 
   color: var(--main-text-color);
   margin-bottom: 16px;
+  text-align: center;
 }
 .contact-form-field-wrapper {
   margin-bottom: 16px;
