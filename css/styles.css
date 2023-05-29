@@ -632,6 +632,10 @@ ul {
 .contact-form-field-wrapper {
   margin-bottom: 16px;
   display: block;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
 }
 .contacts-form-input {
   width: 100%;
@@ -693,4 +697,7 @@ ul {
   letter-spacing: 0.04em;
 
   color: rgba(46, 47, 66, 0.4);
+}
+.contacts-form-container {
+  margin-bottom: 8px;
 }
