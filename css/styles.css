@@ -725,7 +725,7 @@ ul {
   justify-content: center;
   fill: transparent;
 }
-.contacts-form-checkbox:checked + .contact-form-field-check {
+.contacts-form-checkbox:checked + .contact-form-field-wrapper {
   background-color: var(--hover-text-color);
   border: none;
   fill: #ffffff;
