@@ -715,6 +715,13 @@ ul {
 .contacts-form-container-checkbox {
   margin-bottom: 24px;
 }
-.contacts-form-checkbox {
-  visibility: hidden;
+.contact-form-field-wrapper-text {
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
 }
