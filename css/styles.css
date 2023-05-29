@@ -644,6 +644,8 @@ ul {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   transition: border-color var(--transition-duration-and-fanc);
+  background-color: transparent;
+  outline: transparent;
 }
 .contact-form-field-desc {
   font-family: var(--main-font-family);
@@ -658,7 +660,7 @@ ul {
 .contact-form-input-icon {
   position: absolute;
   top: 50%;
-  left: 17px;
+  left: 16px;
   transform: translateY(-50%);
   fill: #2e2f42;
   transition: fill var(--transition-duration-and-fanc);
