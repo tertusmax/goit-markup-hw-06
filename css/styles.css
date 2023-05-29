@@ -715,3 +715,6 @@ ul {
 .contacts-form-container-checkbox {
   margin-bottom: 24px;
 }
+.contacts-form-checkbox {
+  visibility: hidden;
+}
