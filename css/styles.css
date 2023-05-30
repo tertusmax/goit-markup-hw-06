@@ -788,12 +788,12 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
   padding-left: 16px;
+  color: #ffffff;
 }
 .footer-form-input::placeholder {
   color: #ffffff;
 }
 .footer-subscribe-btn {
-  margin-left: 24px;
   background: #4d5ae5;
   border-radius: 4px;
   display: flex;
@@ -801,7 +801,6 @@ ul {
   justify-content: center;
   align-items: center;
   padding: 8px 24px;
-  gap: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -813,4 +812,8 @@ ul {
 }
 .footer-form {
   display: flex;
+  gap: 24px;
+}
+.footer-subscribe-btn-svg {
+  margin-left: 16px;
 }
