@@ -714,6 +714,8 @@ ul {
 }
 .contacts-form-container-checkbox {
   margin-bottom: 24px;
+  height: 16px;
+  width: 100%;
 }
 .contact-form-field-check {
   width: 16px;
@@ -727,6 +729,7 @@ ul {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-right: 10px;
 }
 .contacts-form-checkbox:checked
   + .contact-form-field-wrapper
@@ -735,4 +738,7 @@ ul {
   border: none;
   fill: #ffffff;
   border-color: var(--hover-text-color);
+}
+.contact-form-field-link {
+  color: #4d5ae5;
 }
