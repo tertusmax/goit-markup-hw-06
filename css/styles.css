@@ -742,3 +742,6 @@ ul {
 .contact-form-field-link {
   color: #4d5ae5;
 }
+.contacts-form-checkbox {
+  appearance: none;
+}
