@@ -744,4 +744,5 @@ ul {
 }
 .contacts-form-checkbox {
   appearance: none;
+  position: absolute;
 }
